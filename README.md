@@ -17,6 +17,8 @@ Presentation Poster(in Korean):
 
 <img width="442" height="640" alt="Image" src="https://github.com/user-attachments/assets/b4bd2c04-dde0-47bf-b3df-6dd5c73bcf0b" />
 
+<img width="442" height="640" alt="Image" src="https://github.com/user-attachments/assets/2fd8acc8-b2e1-4be8-887b-8961a67de2fd" />
+
 ---
 
 ## 1. Hardware & Software
