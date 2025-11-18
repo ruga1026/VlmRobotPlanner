@@ -1,0 +1,22 @@
+[
+    {
+        "objects": [
+            {
+                "id": "dog#3",
+                "class": "dog",
+                "map_xy": [
+                    4.62,
+                    -3.8
+                ]
+            },
+            {
+                "id": "person#2",
+                "class": "person",
+                "map_xy": [
+                    1.48,
+                    -3.81
+                ]
+            }
+        ]
+    }
+]

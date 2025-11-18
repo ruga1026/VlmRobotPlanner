@@ -1,0 +1,5 @@
+  File "/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node/vlm_node.py", line 347
+    r'^\s*search\s*\(\s*(?:(?:
+    ^
+SyntaxError: unterminated string literal (detected at line 347)
+

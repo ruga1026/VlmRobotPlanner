@@ -1,0 +1,96 @@
+[0.205s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.205s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87bdf5b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87bde590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87bde590>>)
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.478s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nx/nx_ws/src/vlm_node'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'vlm_node'
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.508s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'vlm_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'vlm_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nx/nx_ws/src/vlm_node/build/vlm_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nx/nx_ws/src/vlm_node/install/vlm_node', 'merge_install': False, 'path': '/home/nx/nx_ws/src/vlm_node', 'symlink_install': False, 'test_result_base': None}
+[0.555s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.558s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nx/nx_ws/src/vlm_node' with build type 'ament_python'
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_node', 'ament_prefix_path')
+[0.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/ament_prefix_path.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/ament_prefix_path.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/ament_prefix_path.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.028s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nx/nx_ws/src/vlm_node'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nx/nx_ws/src/vlm_node': PYTHONPATH=/home/nx/nx_ws/src/vlm_node/build/vlm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vlm_node build --build-base /home/nx/nx_ws/src/vlm_node/build/vlm_node/build install --record /home/nx/nx_ws/src/vlm_node/build/vlm_node/install.log --single-version-externally-managed install_data
+[2.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nx/nx_ws/src/vlm_node' returned '0': PYTHONPATH=/home/nx/nx_ws/src/vlm_node/build/vlm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/vlm_node build --build-base /home/nx/nx_ws/src/vlm_node/build/vlm_node/build install --record /home/nx/nx_ws/src/vlm_node/build/vlm_node/install.log --single-version-externally-managed install_data
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node' for CMake module files
+[2.160s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node' for CMake config files
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node/bin'
+[2.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_node', 'path')
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/path.ps1'
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/path.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/path.sh'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/pkgconfig/vlm_node.pc'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages'
+[2.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_node', 'pythonpath')
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonpath.ps1'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonpath.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonpath.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/nx/nx_ws/src/vlm_node/install/vlm_node/bin'
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('vlm_node', 'pythonscriptspath')
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonscriptspath.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonscriptspath.dsv'
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/hook/pythonscriptspath.sh'
+[2.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vlm_node)
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/package.dsv'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/package.sh'
+[2.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/package.bash'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/package.zsh'
+[2.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nx/nx_ws/src/vlm_node/install/vlm_node/share/colcon-core/packages/vlm_node)
+[2.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.195s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.212s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.212s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nx/nx_ws/src/vlm_node/install/local_setup.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nx/nx_ws/src/vlm_node/install/_local_setup_util_ps1.py'
+[2.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nx/nx_ws/src/vlm_node/install/setup.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nx/nx_ws/src/vlm_node/install/local_setup.sh'
+[2.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nx/nx_ws/src/vlm_node/install/_local_setup_util_sh.py'
+[2.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nx/nx_ws/src/vlm_node/install/setup.sh'
+[2.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nx/nx_ws/src/vlm_node/install/local_setup.bash'
+[2.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nx/nx_ws/src/vlm_node/install/setup.bash'
+[2.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nx/nx_ws/src/vlm_node/install/local_setup.zsh'
+[2.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nx/nx_ws/src/vlm_node/install/setup.zsh'

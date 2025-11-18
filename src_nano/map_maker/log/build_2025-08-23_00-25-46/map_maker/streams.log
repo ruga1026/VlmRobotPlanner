@@ -1,0 +1,16 @@
+[1.435s] Invoking command in '/home/nx/nx_ws/src/map_maker': PYTHONPATH=/home/nx/nx_ws/src/map_maker/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/map_maker build --build-base /home/nx/nx_ws/src/map_maker/build/map_maker/build install --record /home/nx/nx_ws/src/map_maker/build/map_maker/install.log --single-version-externally-managed install_data
+[1.954s] running egg_info
+[1.957s] writing build/map_maker/map_maker.egg-info/PKG-INFO
+[1.958s] writing dependency_links to build/map_maker/map_maker.egg-info/dependency_links.txt
+[1.958s] writing entry points to build/map_maker/map_maker.egg-info/entry_points.txt
+[1.958s] writing requirements to build/map_maker/map_maker.egg-info/requires.txt
+[1.958s] writing top-level names to build/map_maker/map_maker.egg-info/top_level.txt
+[1.962s] reading manifest file 'build/map_maker/map_maker.egg-info/SOURCES.txt'
+[1.964s] writing manifest file 'build/map_maker/map_maker.egg-info/SOURCES.txt'
+[1.964s] running build
+[1.964s] running build_py
+[1.965s] running install
+[1.965s] running install_lib
+[1.968s] running install_data
+[1.968s] error: can't copy 'resource/map_maker': doesn't exist or not a regular file
+[2.023s] Invoked command in '/home/nx/nx_ws/src/map_maker' returned '1': PYTHONPATH=/home/nx/nx_ws/src/map_maker/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/map_maker build --build-base /home/nx/nx_ws/src/map_maker/build/map_maker/build install --record /home/nx/nx_ws/src/map_maker/build/map_maker/install.log --single-version-externally-managed install_data

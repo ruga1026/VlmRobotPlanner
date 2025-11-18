@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (map_maker) JobQueued: {'identifier': 'map_maker', 'dependencies': OrderedDict()}
+[0.000782] (map_maker) JobStarted: {'identifier': 'map_maker'}
+[0.099306] (-) TimerEvent: {}
+[0.199682] (-) TimerEvent: {}
+[0.300049] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500800] (-) TimerEvent: {}
+[0.601307] (-) TimerEvent: {}
+[0.701949] (-) TimerEvent: {}
+[0.802435] (-) TimerEvent: {}
+[0.902898] (-) TimerEvent: {}
+[1.003365] (-) TimerEvent: {}
+[1.103802] (-) TimerEvent: {}
+[1.204229] (-) TimerEvent: {}
+[1.304712] (-) TimerEvent: {}
+[1.344320] (map_maker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/map_maker', 'build', '--build-base', '/home/nx/nx_ws/src/map_maker/build/map_maker/build', 'install', '--record', '/home/nx/nx_ws/src/map_maker/build/map_maker/install.log', '--single-version-externally-managed'], 'cwd': '/home/nx/nx_ws/src/map_maker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nx', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nx', 'OLDPWD': '/home/nx/nx_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nx/.nvm/versions/node/v24.6.0/bin', 'NVM_INC': '/home/nx/.nvm/versions/node/v24.6.0/include/node', 'JETSON_L4T': '36.4.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super', 'HF_HOME': '/home/nx/hf-cache', 'SYSTEMD_EXEC_PID': '14798', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nx/.nvm', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nx/nx_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nx', '_': '/usr/bin/colcon', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '1420625030180', 'GEMINI_CLI': '1', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nx', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/nx/nx_ws/install/map_maker/bin:/opt/ros/humble/bin:/home/nx/.nvm/versions/node/v24.6.0/bin:/home/nx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tegra-ubuntu:@/tmp/.ICE-unix/2643,unix/tegra-ubuntu:/tmp/.ICE-unix/2643', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5d01786f_15d5_43b8_9d82_5af8c0ed7049', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.153', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nx/nx_ws/install/yolo:/home/nx/nx_ws/install/traxxas:/home/nx/nx_ws/install/pwm_control:/home/nx/nx_ws/install/map_maker:/home/nx/nx_ws/install/depth_voxel_downsampler:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/nx/nx_ws/src/map_maker/build/map_maker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nx/nx_ws/src/map_maker/build/map_maker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages:/home/nx/nx_ws/build/yolo:/home/nx/nx_ws/install/yolo/lib/python3.10/site-packages:/home/nx/nx_ws/build/pwm_control:/home/nx/nx_ws/install/pwm_control/lib/python3.10/site-packages:/home/nx/nx_ws/build/map_maker:/home/nx/nx_ws/install/map_maker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/nx/nx_ws/install/traxxas:/home/nx/nx_ws/install/depth_voxel_downsampler'}, 'shell': False}
+[1.404846] (-) TimerEvent: {}
+[1.505216] (-) TimerEvent: {}
+[1.605585] (-) TimerEvent: {}
+[1.705969] (-) TimerEvent: {}
+[1.806353] (-) TimerEvent: {}
+[1.859983] (map_maker) StdoutLine: {'line': b'running egg_info\n'}
+[1.861008] (map_maker) StdoutLine: {'line': b'creating build/map_maker/map_maker.egg-info\n'}
+[1.861498] (map_maker) StdoutLine: {'line': b'writing build/map_maker/map_maker.egg-info/PKG-INFO\n'}
+[1.862076] (map_maker) StdoutLine: {'line': b'writing dependency_links to build/map_maker/map_maker.egg-info/dependency_links.txt\n'}
+[1.862406] (map_maker) StdoutLine: {'line': b'writing requirements to build/map_maker/map_maker.egg-info/requires.txt\n'}
+[1.862655] (map_maker) StdoutLine: {'line': b'writing top-level names to build/map_maker/map_maker.egg-info/top_level.txt\n'}
+[1.862971] (map_maker) StdoutLine: {'line': b"writing manifest file 'build/map_maker/map_maker.egg-info/SOURCES.txt'\n"}
+[1.866822] (map_maker) StdoutLine: {'line': b"reading manifest file 'build/map_maker/map_maker.egg-info/SOURCES.txt'\n"}
+[1.867826] (map_maker) StdoutLine: {'line': b"writing manifest file 'build/map_maker/map_maker.egg-info/SOURCES.txt'\n"}
+[1.868653] (map_maker) StdoutLine: {'line': b'running build\n'}
+[1.869245] (map_maker) StdoutLine: {'line': b'running build_py\n'}
+[1.869602] (map_maker) StdoutLine: {'line': b'creating /home/nx/nx_ws/src/map_maker/build/map_maker/build\n'}
+[1.869758] (map_maker) StdoutLine: {'line': b'creating /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib\n'}
+[1.869897] (map_maker) StdoutLine: {'line': b'creating /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib/map_maker\n'}
+[1.870189] (map_maker) StdoutLine: {'line': b'copying map_maker/map_maker.py -> /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib/map_maker\n'}
+[1.870336] (map_maker) StdoutLine: {'line': b'copying map_maker/__init__.py -> /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib/map_maker\n'}
+[1.870470] (map_maker) StdoutLine: {'line': b'running install\n'}
+[1.870596] (map_maker) StdoutLine: {'line': b'running install_lib\n'}
+[1.874824] (map_maker) StdoutLine: {'line': b'creating /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker\n'}
+[1.875305] (map_maker) StdoutLine: {'line': b'copying /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib/map_maker/map_maker.py -> /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker\n'}
+[1.875466] (map_maker) StdoutLine: {'line': b'copying /home/nx/nx_ws/src/map_maker/build/map_maker/build/lib/map_maker/__init__.py -> /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker\n'}
+[1.876464] (map_maker) StdoutLine: {'line': b'byte-compiling /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker/map_maker.py to map_maker.cpython-310.pyc\n'}
+[1.880150] (map_maker) StdoutLine: {'line': b'byte-compiling /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker/__init__.py to __init__.cpython-310.pyc\n'}
+[1.880477] (map_maker) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.884567] (map_maker) StdoutLine: {'line': b'Copying build/map_maker/map_maker.egg-info to /home/nx/nx_ws/src/map_maker/install/map_maker/lib/python3.10/site-packages/map_maker-0.0.1-py3.10.egg-info\n'}
+[1.886334] (map_maker) StdoutLine: {'line': b'running install_scripts\n'}
+[1.906491] (-) TimerEvent: {}
+[1.929013] (map_maker) StdoutLine: {'line': b"writing list of installed files to '/home/nx/nx_ws/src/map_maker/build/map_maker/install.log'\n"}
+[1.998150] (map_maker) CommandEnded: {'returncode': 0}
+[2.006709] (-) TimerEvent: {}
+[2.036088] (map_maker) JobEnded: {'identifier': 'map_maker', 'rc': 0}
+[2.038097] (-) EventReactorShutdown: {}

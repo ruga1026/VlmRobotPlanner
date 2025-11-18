@@ -1,0 +1,3 @@
+[console_scripts]
+map_maker = map_maker.map_maker:main
+

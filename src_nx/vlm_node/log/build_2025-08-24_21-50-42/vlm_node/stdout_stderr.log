@@ -1,0 +1,42 @@
+running egg_info
+creating build/vlm_node/vlm_node.egg-info
+writing build/vlm_node/vlm_node.egg-info/PKG-INFO
+writing dependency_links to build/vlm_node/vlm_node.egg-info/dependency_links.txt
+writing entry points to build/vlm_node/vlm_node.egg-info/entry_points.txt
+writing requirements to build/vlm_node/vlm_node.egg-info/requires.txt
+writing top-level names to build/vlm_node/vlm_node.egg-info/top_level.txt
+writing manifest file 'build/vlm_node/vlm_node.egg-info/SOURCES.txt'
+reading manifest file 'build/vlm_node/vlm_node.egg-info/SOURCES.txt'
+writing manifest file 'build/vlm_node/vlm_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nx/nx_ws/src/vlm_node/build/vlm_node/build
+creating /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib
+creating /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib/vlm_node
+copying vlm_node/vlm_node.py -> /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib/vlm_node
+copying vlm_node/__init__.py -> /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib/vlm_node
+running install
+running install_lib
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node
+copying /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib/vlm_node/vlm_node.py -> /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node
+copying /home/nx/nx_ws/src/vlm_node/build/vlm_node/build/lib/vlm_node/__init__.py -> /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node
+byte-compiling /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node/vlm_node.py to vlm_node.cpython-310.pyc
+  File "/home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node/vlm_node.py", line 347
+    r'^\s*search\s*\(\s*(?:(?:
+    ^
+SyntaxError: unterminated string literal (detected at line 347)
+
+byte-compiling /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/ament_index
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/ament_index/resource_index
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/ament_index/resource_index/packages
+copying resource/vlm_node -> /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/launch
+creating /home/nx/nx_ws/src/vlm_node/install/vlm_node/share/vlm_node/config
+running install_egg_info
+Copying build/vlm_node/vlm_node.egg-info to /home/nx/nx_ws/src/vlm_node/install/vlm_node/lib/python3.10/site-packages/vlm_node-0.1.0-py3.10.egg-info
+running install_scripts
+Installing vlm_node script to /home/nx/nx_ws/src/vlm_node/install/vlm_node/bin
+writing list of installed files to '/home/nx/nx_ws/src/vlm_node/build/vlm_node/install.log'

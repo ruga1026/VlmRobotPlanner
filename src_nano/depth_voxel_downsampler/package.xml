@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>depth_voxel_downsampler</name>
+  <version>0.1.0</version>
+  <description>Downsample D435i point cloud to 5cm voxels for SLAM/Nav2/RViz.</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>rcl_interfaces</depend>
+
+  <depend>libpcl-dev</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
