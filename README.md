@@ -10,6 +10,13 @@ VlmRobotPlanner is a demo project for Jetson Orin–based RC cars that combines:
 
 The goal is to run autonomous navigation while interacting with the robot via natural-language prompts.
 
+Received the Encouragement Award at the 7th National Undergraduate Capstone Design Competition organized 
+by the Society for Aerospace System Engineering (SASE), August 2025.
+
+Presentation Poster(in Korean):
+
+<img width="442" height="640" alt="Image" src="https://github.com/user-attachments/assets/b4bd2c04-dde0-47bf-b3df-6dd5c73bcf0b" />
+
 ---
 
 ## 1. Hardware & Software
