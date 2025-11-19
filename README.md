@@ -187,12 +187,6 @@ After PWM control and Nav2 are running, start perception and the VLM.
 The YOLO package may contain multiple nodes (e.g., camera/image node, detection node, post-processing, etc.).
 **Start all nodes provided by the `yolo` package** so that detection results are fully available to the rest of the system.
 
-Depending on how the package is structured, this might be done by:
-
-* A single launch file that starts every YOLO-related node, or
-* Running several `ros2 run` / `ros2 launch` commands, one for each node.
-
-
 Check the `yolo` package’s `launch/` and `src/` directories for the exact node and launch file names.
 
 ### 7.2 Start the VLM node
@@ -217,9 +211,7 @@ The interaction interface (topic, service, action, or CLI input) is defined in `
 
 Typical usage could be:
 
-* “Avoid the obstacle in front and move to the goal on the right.”
-* “Follow the detected person while staying inside the corridor.”
-* “Describe what you see and suggest a path to the nearest exit.”
+* “Move to the table, pick the red block, and place it on the shelf.”
 
 Refer to the node’s implementation for the exact ROS interface.
 
